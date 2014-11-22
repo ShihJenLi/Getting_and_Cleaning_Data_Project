@@ -1,8 +1,11 @@
 Getting_and_Cleaning_Data_Project
 =================================
-In this assignment, the following tasks are performed
-  1. Merges the training and the test sets into one dataset called "tidydata".
-  2. Extracts only the measurements on the mean and standard deviation for each measurement. 
-  3. Uses descriptive activity names to name the activities in the data set
-  4. Appropriately labels the data set with descriptive variable names. 
-  5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+In this assignment, the following tasks are performed in the run_analysis.R
+Step 0. Download data from the following location 
+  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+Step 1. unzip files 
+Step 2. Merge training, test, activity and subject data 
+Step 3. Extracts only the measurements on the mean and standard deviation for each measurement(variables). 
+Step 4. Apply descriptive activity name to activity 
+==========================================
+Step 5. export tidy data set to a text file.
